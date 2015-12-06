@@ -27,10 +27,17 @@
 }
 
 #column-center{
-    margin-left: auto ;
-    margin-right: auto ;
+    margin: 0 auto;
+    width: 59%;
+    height: 100%;
+    left: 21%;
+    top: 50px;
+    overflow: hidden;
     text-align: center; 
-    width: 58%;
+    background-image: url(backgroundCenter.jpg);
+    padding-bottom:900px;
+    margin-bottom:-900px;
+    
 }
 
 #column-left{
@@ -41,7 +48,7 @@
     width: 21%; 
     height: 99%; 
     margin-left: 0px;
-    background-image: url(background.bmp);
+    background-image: url(backgroundLeft.jpg);
     overflow:hidden;
     padding-bottom: 2000px;
     margin-bottom: -2000px;
@@ -55,7 +62,7 @@
     top: 0px; 
     width: 21%; 
     height: 100%; 
-    background-image: url(background.bmp);
+    background-image: url(backgroundRight.jpg);
     overflow:hidden;
     padding-bottom: 2144px;
     margin-bottom: -2144px;
